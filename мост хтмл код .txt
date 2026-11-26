@@ -1,0 +1,872 @@
+{
+  "demo": true,
+  "usd_rub": 95,
+  "commission_usd": 200,
+  "rail_surcharge_rub": 15000,
+  "rates": [
+    {
+      "from": "Шанхай",
+      "to": "Владивосток",
+      "container": "20",
+      "line": "Линия 1",
+      "sea_usd": 1800,
+      "rail_rub": 0,
+      "days": 9
+    },
+    {
+      "from": "Шанхай",
+      "to": "Владивосток",
+      "container": "20",
+      "line": "Линия 2",
+      "sea_usd": 1950,
+      "rail_rub": 0,
+      "days": 7
+    },
+    {
+      "from": "Шанхай",
+      "to": "Владивосток",
+      "container": "40HC",
+      "line": "Линия 1",
+      "sea_usd": 3060,
+      "rail_rub": 0,
+      "days": 9
+    },
+    {
+      "from": "Шанхай",
+      "to": "Владивосток",
+      "container": "40HC",
+      "line": "Линия 2",
+      "sea_usd": 3320,
+      "rail_rub": 0,
+      "days": 7
+    },
+    {
+      "from": "Шанхай",
+      "to": "Владивосток",
+      "container": "40DC",
+      "line": "Линия 1",
+      "sea_usd": 2880,
+      "rail_rub": 0,
+      "days": 9
+    },
+    {
+      "from": "Шанхай",
+      "to": "Владивосток",
+      "container": "40DC",
+      "line": "Линия 2",
+      "sea_usd": 3120,
+      "rail_rub": 0,
+      "days": 7
+    },
+    {
+      "from": "Шанхай",
+      "to": "Москва",
+      "container": "20",
+      "line": "Линия 1",
+      "sea_usd": 1800,
+      "rail_rub": 180000,
+      "days": 25
+    },
+    {
+      "from": "Шанхай",
+      "to": "Москва",
+      "container": "20",
+      "line": "Линия 2",
+      "sea_usd": 1950,
+      "rail_rub": 180000,
+      "days": 23
+    },
+    {
+      "from": "Шанхай",
+      "to": "Москва",
+      "container": "40HC",
+      "line": "Линия 1",
+      "sea_usd": 3060,
+      "rail_rub": 306000,
+      "days": 25
+    },
+    {
+      "from": "Шанхай",
+      "to": "Москва",
+      "container": "40HC",
+      "line": "Линия 2",
+      "sea_usd": 3320,
+      "rail_rub": 306000,
+      "days": 23
+    },
+    {
+      "from": "Шанхай",
+      "to": "Москва",
+      "container": "40DC",
+      "line": "Линия 1",
+      "sea_usd": 2880,
+      "rail_rub": 288000,
+      "days": 25
+    },
+    {
+      "from": "Шанхай",
+      "to": "Москва",
+      "container": "40DC",
+      "line": "Линия 2",
+      "sea_usd": 3120,
+      "rail_rub": 288000,
+      "days": 23
+    },
+    {
+      "from": "Шанхай",
+      "to": "Новосибирск",
+      "container": "20",
+      "line": "Линия 1",
+      "sea_usd": 1800,
+      "rail_rub": 140000,
+      "days": 21
+    },
+    {
+      "from": "Шанхай",
+      "to": "Новосибирск",
+      "container": "20",
+      "line": "Линия 2",
+      "sea_usd": 1950,
+      "rail_rub": 140000,
+      "days": 19
+    },
+    {
+      "from": "Шанхай",
+      "to": "Новосибирск",
+      "container": "40HC",
+      "line": "Линия 1",
+      "sea_usd": 3060,
+      "rail_rub": 238000,
+      "days": 21
+    },
+    {
+      "from": "Шанхай",
+      "to": "Новосибирск",
+      "container": "40HC",
+      "line": "Линия 2",
+      "sea_usd": 3320,
+      "rail_rub": 238000,
+      "days": 19
+    },
+    {
+      "from": "Шанхай",
+      "to": "Новосибирск",
+      "container": "40DC",
+      "line": "Линия 1",
+      "sea_usd": 2880,
+      "rail_rub": 224000,
+      "days": 21
+    },
+    {
+      "from": "Шанхай",
+      "to": "Новосибирск",
+      "container": "40DC",
+      "line": "Линия 2",
+      "sea_usd": 3120,
+      "rail_rub": 224000,
+      "days": 19
+    },
+    {
+      "from": "Шанхай",
+      "to": "Екатеринбург",
+      "container": "20",
+      "line": "Линия 1",
+      "sea_usd": 1800,
+      "rail_rub": 165000,
+      "days": 23
+    },
+    {
+      "from": "Шанхай",
+      "to": "Екатеринбург",
+      "container": "20",
+      "line": "Линия 2",
+      "sea_usd": 1950,
+      "rail_rub": 165000,
+      "days": 21
+    },
+    {
+      "from": "Шанхай",
+      "to": "Екатеринбург",
+      "container": "40HC",
+      "line": "Линия 1",
+      "sea_usd": 3060,
+      "rail_rub": 280000,
+      "days": 23
+    },
+    {
+      "from": "Шанхай",
+      "to": "Екатеринбург",
+      "container": "40HC",
+      "line": "Линия 2",
+      "sea_usd": 3320,
+      "rail_rub": 280000,
+      "days": 21
+    },
+    {
+      "from": "Шанхай",
+      "to": "Екатеринбург",
+      "container": "40DC",
+      "line": "Линия 1",
+      "sea_usd": 2880,
+      "rail_rub": 264000,
+      "days": 23
+    },
+    {
+      "from": "Шанхай",
+      "to": "Екатеринбург",
+      "container": "40DC",
+      "line": "Линия 2",
+      "sea_usd": 3120,
+      "rail_rub": 264000,
+      "days": 21
+    },
+    {
+      "from": "Нинбо",
+      "to": "Владивосток",
+      "container": "20",
+      "line": "Линия 1",
+      "sea_usd": 1760,
+      "rail_rub": 0,
+      "days": 9
+    },
+    {
+      "from": "Нинбо",
+      "to": "Владивосток",
+      "container": "20",
+      "line": "Линия 2",
+      "sea_usd": 1910,
+      "rail_rub": 0,
+      "days": 7
+    },
+    {
+      "from": "Нинбо",
+      "to": "Владивосток",
+      "container": "40HC",
+      "line": "Линия 1",
+      "sea_usd": 2990,
+      "rail_rub": 0,
+      "days": 9
+    },
+    {
+      "from": "Нинбо",
+      "to": "Владивосток",
+      "container": "40HC",
+      "line": "Линия 2",
+      "sea_usd": 3250,
+      "rail_rub": 0,
+      "days": 7
+    },
+    {
+      "from": "Нинбо",
+      "to": "Владивосток",
+      "container": "40DC",
+      "line": "Линия 1",
+      "sea_usd": 2820,
+      "rail_rub": 0,
+      "days": 9
+    },
+    {
+      "from": "Нинбо",
+      "to": "Владивосток",
+      "container": "40DC",
+      "line": "Линия 2",
+      "sea_usd": 3060,
+      "rail_rub": 0,
+      "days": 7
+    },
+    {
+      "from": "Нинбо",
+      "to": "Москва",
+      "container": "20",
+      "line": "Линия 1",
+      "sea_usd": 1760,
+      "rail_rub": 180000,
+      "days": 25
+    },
+    {
+      "from": "Нинбо",
+      "to": "Москва",
+      "container": "20",
+      "line": "Линия 2",
+      "sea_usd": 1910,
+      "rail_rub": 180000,
+      "days": 23
+    },
+    {
+      "from": "Нинбо",
+      "to": "Москва",
+      "container": "40HC",
+      "line": "Линия 1",
+      "sea_usd": 2990,
+      "rail_rub": 306000,
+      "days": 25
+    },
+    {
+      "from": "Нинбо",
+      "to": "Москва",
+      "container": "40HC",
+      "line": "Линия 2",
+      "sea_usd": 3250,
+      "rail_rub": 306000,
+      "days": 23
+    },
+    {
+      "from": "Нинбо",
+      "to": "Москва",
+      "container": "40DC",
+      "line": "Линия 1",
+      "sea_usd": 2820,
+      "rail_rub": 288000,
+      "days": 25
+    },
+    {
+      "from": "Нинбо",
+      "to": "Москва",
+      "container": "40DC",
+      "line": "Линия 2",
+      "sea_usd": 3060,
+      "rail_rub": 288000,
+      "days": 23
+    },
+    {
+      "from": "Нинбо",
+      "to": "Новосибирск",
+      "container": "20",
+      "line": "Линия 1",
+      "sea_usd": 1760,
+      "rail_rub": 140000,
+      "days": 21
+    },
+    {
+      "from": "Нинбо",
+      "to": "Новосибирск",
+      "container": "20",
+      "line": "Линия 2",
+      "sea_usd": 1910,
+      "rail_rub": 140000,
+      "days": 19
+    },
+    {
+      "from": "Нинбо",
+      "to": "Новосибирск",
+      "container": "40HC",
+      "line": "Линия 1",
+      "sea_usd": 2990,
+      "rail_rub": 238000,
+      "days": 21
+    },
+    {
+      "from": "Нинбо",
+      "to": "Новосибирск",
+      "container": "40HC",
+      "line": "Линия 2",
+      "sea_usd": 3250,
+      "rail_rub": 238000,
+      "days": 19
+    },
+    {
+      "from": "Нинбо",
+      "to": "Новосибирск",
+      "container": "40DC",
+      "line": "Линия 1",
+      "sea_usd": 2820,
+      "rail_rub": 224000,
+      "days": 21
+    },
+    {
+      "from": "Нинбо",
+      "to": "Новосибирск",
+      "container": "40DC",
+      "line": "Линия 2",
+      "sea_usd": 3060,
+      "rail_rub": 224000,
+      "days": 19
+    },
+    {
+      "from": "Нинбо",
+      "to": "Екатеринбург",
+      "container": "20",
+      "line": "Линия 1",
+      "sea_usd": 1760,
+      "rail_rub": 165000,
+      "days": 23
+    },
+    {
+      "from": "Нинбо",
+      "to": "Екатеринбург",
+      "container": "20",
+      "line": "Линия 2",
+      "sea_usd": 1910,
+      "rail_rub": 165000,
+      "days": 21
+    },
+    {
+      "from": "Нинбо",
+      "to": "Екатеринбург",
+      "container": "40HC",
+      "line": "Линия 1",
+      "sea_usd": 2990,
+      "rail_rub": 280000,
+      "days": 23
+    },
+    {
+      "from": "Нинбо",
+      "to": "Екатеринбург",
+      "container": "40HC",
+      "line": "Линия 2",
+      "sea_usd": 3250,
+      "rail_rub": 280000,
+      "days": 21
+    },
+    {
+      "from": "Нинбо",
+      "to": "Екатеринбург",
+      "container": "40DC",
+      "line": "Линия 1",
+      "sea_usd": 2820,
+      "rail_rub": 264000,
+      "days": 23
+    },
+    {
+      "from": "Нинбо",
+      "to": "Екатеринбург",
+      "container": "40DC",
+      "line": "Линия 2",
+      "sea_usd": 3060,
+      "rail_rub": 264000,
+      "days": 21
+    },
+    {
+      "from": "Циндао",
+      "to": "Владивосток",
+      "container": "20",
+      "line": "Линия 1",
+      "sea_usd": 1860,
+      "rail_rub": 0,
+      "days": 9
+    },
+    {
+      "from": "Циндао",
+      "to": "Владивосток",
+      "container": "20",
+      "line": "Линия 2",
+      "sea_usd": 2010,
+      "rail_rub": 0,
+      "days": 7
+    },
+    {
+      "from": "Циндао",
+      "to": "Владивосток",
+      "container": "40HC",
+      "line": "Линия 1",
+      "sea_usd": 3160,
+      "rail_rub": 0,
+      "days": 9
+    },
+    {
+      "from": "Циндао",
+      "to": "Владивосток",
+      "container": "40HC",
+      "line": "Линия 2",
+      "sea_usd": 3420,
+      "rail_rub": 0,
+      "days": 7
+    },
+    {
+      "from": "Циндао",
+      "to": "Владивосток",
+      "container": "40DC",
+      "line": "Линия 1",
+      "sea_usd": 2980,
+      "rail_rub": 0,
+      "days": 9
+    },
+    {
+      "from": "Циндао",
+      "to": "Владивосток",
+      "container": "40DC",
+      "line": "Линия 2",
+      "sea_usd": 3220,
+      "rail_rub": 0,
+      "days": 7
+    },
+    {
+      "from": "Циндао",
+      "to": "Москва",
+      "container": "20",
+      "line": "Линия 1",
+      "sea_usd": 1860,
+      "rail_rub": 180000,
+      "days": 25
+    },
+    {
+      "from": "Циндао",
+      "to": "Москва",
+      "container": "20",
+      "line": "Линия 2",
+      "sea_usd": 2010,
+      "rail_rub": 180000,
+      "days": 23
+    },
+    {
+      "from": "Циндао",
+      "to": "Москва",
+      "container": "40HC",
+      "line": "Линия 1",
+      "sea_usd": 3160,
+      "rail_rub": 306000,
+      "days": 25
+    },
+    {
+      "from": "Циндао",
+      "to": "Москва",
+      "container": "40HC",
+      "line": "Линия 2",
+      "sea_usd": 3420,
+      "rail_rub": 306000,
+      "days": 23
+    },
+    {
+      "from": "Циндао",
+      "to": "Москва",
+      "container": "40DC",
+      "line": "Линия 1",
+      "sea_usd": 2980,
+      "rail_rub": 288000,
+      "days": 25
+    },
+    {
+      "from": "Циндао",
+      "to": "Москва",
+      "container": "40DC",
+      "line": "Линия 2",
+      "sea_usd": 3220,
+      "rail_rub": 288000,
+      "days": 23
+    },
+    {
+      "from": "Циндао",
+      "to": "Новосибирск",
+      "container": "20",
+      "line": "Линия 1",
+      "sea_usd": 1860,
+      "rail_rub": 140000,
+      "days": 21
+    },
+    {
+      "from": "Циндао",
+      "to": "Новосибирск",
+      "container": "20",
+      "line": "Линия 2",
+      "sea_usd": 2010,
+      "rail_rub": 140000,
+      "days": 19
+    },
+    {
+      "from": "Циндао",
+      "to": "Новосибирск",
+      "container": "40HC",
+      "line": "Линия 1",
+      "sea_usd": 3160,
+      "rail_rub": 238000,
+      "days": 21
+    },
+    {
+      "from": "Циндао",
+      "to": "Новосибирск",
+      "container": "40HC",
+      "line": "Линия 2",
+      "sea_usd": 3420,
+      "rail_rub": 238000,
+      "days": 19
+    },
+    {
+      "from": "Циндао",
+      "to": "Новосибирск",
+      "container": "40DC",
+      "line": "Линия 1",
+      "sea_usd": 2980,
+      "rail_rub": 224000,
+      "days": 21
+    },
+    {
+      "from": "Циндао",
+      "to": "Новосибирск",
+      "container": "40DC",
+      "line": "Линия 2",
+      "sea_usd": 3220,
+      "rail_rub": 224000,
+      "days": 19
+    },
+    {
+      "from": "Циндао",
+      "to": "Екатеринбург",
+      "container": "20",
+      "line": "Линия 1",
+      "sea_usd": 1860,
+      "rail_rub": 165000,
+      "days": 23
+    },
+    {
+      "from": "Циндао",
+      "to": "Екатеринбург",
+      "container": "20",
+      "line": "Линия 2",
+      "sea_usd": 2010,
+      "rail_rub": 165000,
+      "days": 21
+    },
+    {
+      "from": "Циндао",
+      "to": "Екатеринбург",
+      "container": "40HC",
+      "line": "Линия 1",
+      "sea_usd": 3160,
+      "rail_rub": 280000,
+      "days": 23
+    },
+    {
+      "from": "Циндао",
+      "to": "Екатеринбург",
+      "container": "40HC",
+      "line": "Линия 2",
+      "sea_usd": 3420,
+      "rail_rub": 280000,
+      "days": 21
+    },
+    {
+      "from": "Циндао",
+      "to": "Екатеринбург",
+      "container": "40DC",
+      "line": "Линия 1",
+      "sea_usd": 2980,
+      "rail_rub": 264000,
+      "days": 23
+    },
+    {
+      "from": "Циндао",
+      "to": "Екатеринбург",
+      "container": "40DC",
+      "line": "Линия 2",
+      "sea_usd": 3220,
+      "rail_rub": 264000,
+      "days": 21
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Владивосток",
+      "container": "20",
+      "line": "Линия 1",
+      "sea_usd": 1920,
+      "rail_rub": 0,
+      "days": 11
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Владивосток",
+      "container": "20",
+      "line": "Линия 2",
+      "sea_usd": 2070,
+      "rail_rub": 0,
+      "days": 9
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Владивосток",
+      "container": "40HC",
+      "line": "Линия 1",
+      "sea_usd": 3260,
+      "rail_rub": 0,
+      "days": 11
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Владивосток",
+      "container": "40HC",
+      "line": "Линия 2",
+      "sea_usd": 3520,
+      "rail_rub": 0,
+      "days": 9
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Владивосток",
+      "container": "40DC",
+      "line": "Линия 1",
+      "sea_usd": 3070,
+      "rail_rub": 0,
+      "days": 11
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Владивосток",
+      "container": "40DC",
+      "line": "Линия 2",
+      "sea_usd": 3310,
+      "rail_rub": 0,
+      "days": 9
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Москва",
+      "container": "20",
+      "line": "Линия 1",
+      "sea_usd": 1920,
+      "rail_rub": 180000,
+      "days": 27
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Москва",
+      "container": "20",
+      "line": "Линия 2",
+      "sea_usd": 2070,
+      "rail_rub": 180000,
+      "days": 25
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Москва",
+      "container": "40HC",
+      "line": "Линия 1",
+      "sea_usd": 3260,
+      "rail_rub": 306000,
+      "days": 27
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Москва",
+      "container": "40HC",
+      "line": "Линия 2",
+      "sea_usd": 3520,
+      "rail_rub": 306000,
+      "days": 25
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Москва",
+      "container": "40DC",
+      "line": "Линия 1",
+      "sea_usd": 3070,
+      "rail_rub": 288000,
+      "days": 27
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Москва",
+      "container": "40DC",
+      "line": "Линия 2",
+      "sea_usd": 3310,
+      "rail_rub": 288000,
+      "days": 25
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Новосибирск",
+      "container": "20",
+      "line": "Линия 1",
+      "sea_usd": 1920,
+      "rail_rub": 140000,
+      "days": 23
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Новосибирск",
+      "container": "20",
+      "line": "Линия 2",
+      "sea_usd": 2070,
+      "rail_rub": 140000,
+      "days": 21
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Новосибирск",
+      "container": "40HC",
+      "line": "Линия 1",
+      "sea_usd": 3260,
+      "rail_rub": 238000,
+      "days": 23
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Новосибирск",
+      "container": "40HC",
+      "line": "Линия 2",
+      "sea_usd": 3520,
+      "rail_rub": 238000,
+      "days": 21
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Новосибирск",
+      "container": "40DC",
+      "line": "Линия 1",
+      "sea_usd": 3070,
+      "rail_rub": 224000,
+      "days": 23
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Новосибирск",
+      "container": "40DC",
+      "line": "Линия 2",
+      "sea_usd": 3310,
+      "rail_rub": 224000,
+      "days": 21
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Екатеринбург",
+      "container": "20",
+      "line": "Линия 1",
+      "sea_usd": 1920,
+      "rail_rub": 165000,
+      "days": 25
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Екатеринбург",
+      "container": "20",
+      "line": "Линия 2",
+      "sea_usd": 2070,
+      "rail_rub": 165000,
+      "days": 23
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Екатеринбург",
+      "container": "40HC",
+      "line": "Линия 1",
+      "sea_usd": 3260,
+      "rail_rub": 280000,
+      "days": 25
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Екатеринбург",
+      "container": "40HC",
+      "line": "Линия 2",
+      "sea_usd": 3520,
+      "rail_rub": 280000,
+      "days": 23
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Екатеринбург",
+      "container": "40DC",
+      "line": "Линия 1",
+      "sea_usd": 3070,
+      "rail_rub": 264000,
+      "days": 25
+    },
+    {
+      "from": "Гуанчжоу",
+      "to": "Екатеринбург",
+      "container": "40DC",
+      "line": "Линия 2",
+      "sea_usd": 3310,
+      "rail_rub": 264000,
+      "days": 23
+    }
+  ]
+}
